@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MG KEYBOARD</title>
+    <link rel="icon" href="./images/logo.png" />
+    <meta name="description" content="MG Keyboard touchsreen by Alexander Eric@Eric Lapin, MG System Designer." />
+    <meta name="content-language" content="en" />
+    <meta name="language" content="English" />
+    <meta name="robots" content="index, follow, noodp, noydir" />
+    <meta name="googlebot" content="index, follow, noodp, noydir" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="abstract" content="MG Keyboard touchsreen by Alexander Eric@Eric Lapin, MG System Designer.">
+    <meta name="copyright" content="MG Keyboard touchsreen by Alexander Eric@Eric Lapin, MG System Designer.">
+    <meta name="theme-color" content="#1e1e1e" />
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link id="FontBarlow" href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link id="FontBungee" href="https://fonts.googleapis.com/css?family=Bungee&display=swap&subset=latin-ext" rel="stylesheet">
+    <link id="FontConsolas" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css?v=1.3.3" />
+    <script>
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+        function mischandler() {
+            return false;
+        }
+        function mousehandler(e) {
+            var myevent = (isNS) ? e : event;
+            var eventbutton = (isNS) ? myevent.which : myevent.button;
+            if ((eventbutton == 2) || (eventbutton == 3)) return false;
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+    </script>
+</head>
+
+<body>
+  <header id="Header">
+    <a id="Logo">
+      <span class="title"><img src="./images/logo.png" width="60" height="60"/></i></span>
+      <span class="desc">MG</span>
+    </a>
+
+    <div class="get-kioskboard">
+      <a href="https://www.facebook.com/alexandereric.on.fb" rel="noopener" target="_blank" data-toggle="tooltip" title="Facebook"><img src="https://th.bing.com/th/id/R03d04d733cd215a986cdfdb4215ea6e3?rik=uqoxud%2fNF7%2fZNw&riu=http%3a%2f%2fclipart.info%2fimages%2fccovers%2f15091353693D-Facebook-logo-png-Icon.png&ehk=c8KJdHcx%2bR0ACOvn07ncvWp2I9ZSXFmjWGZEeOQBTlA%3d&risl=&pid=ImgRaw" width="40" height="40"/></i></a>
+      <a href="https://twitter.com/alexeric95" rel="noopener" target="_blank" data-toggle="tooltip" title="twitter" class="twitter" data-original-title="twitter"><img src="https://images.vexels.com/media/users/3/132556/isolated/preview/b2314c5cc836a5a3f6448bc4f98f37d8-twitter-square-icon-by-vexels.png" height="40" width="40"/></i></a>
+    </div>
+  </header>
+
+  <section id="Slider">
+    <div class="slider-content slider-image">
+      <img width="1024" height="850" class="image" src="./images/logo.png" width="60" height="60" alt="MG Virtual Platform" />
+    </div>
+    <div class="slider-content slider-info">
+      <h1 class="title">MG</h1>
+      <h4 class="sub-title">Virtual Platform</h4>
+      <p class="desc">Greate Performance! Greater Experiences!</p>
+      <p class="version" data-toggle="tooltip" title="Software Update">v1.0.0</p>
+      <div class="browser-compatibility">
+        <h5 class="bc-title">Browser Compatibility</h5>
+        <ul class="bc-ul">
+          <li class="browser">
+            <i class="fab fa-chrome"></i>
+            <span>Chrome</span>
+          </li>
+          <li class="browser">
+            <i class="fab fa-firefox"></i>
+            <span>Firefox</span>
+          </li>
+          <li class="browser">
+            <i class="fab fa-safari"></i>
+            <span>Safari</span>
+          </li>
+          <li class="browser">
+            <i class="fab fa-opera"></i>
+            <span>Opera</span>
+          </li>
+          <li class="browser">
+            <i class="fab fa-edge"></i>
+            <span>Edge</span>
+          </li>
+          <li class="browser">
+            <i class="fab fa-internet-explorer"></i>
+            <span>IE 11</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="KeyboardTypes" class="sections">
+    <div class="max-width">
+
+      <div class="head">
+        <h2 class="sec-title">On Screen Keyboard for PC</h2>
+        <p class="sec-desc">3 types of keyboards can be used: <span class="option">all</span>, <span class="option">keyboard</span>, and <span class="option">numpad</span>.</p>
+      </div>
+      <div class="section-content keyboard-types">
+        <div class="types type-all">
+          <div class="info">
+            <img width="150" height="150" class="image" src="images/Keyboard-Types-Icons-All.svg" alt="KioskBoard - All Keyboard" />
+            <h4 class="title">Normal Type</h4>
+            <p><i class="fas fa-circle"></i>Number Keys (Static)</p>
+            <p><i class="fas fa-circle"></i>Custom Keys (From JSON or an Object)</p>
+            <p><i class="fas fa-circle"></i>Special Character Keys (Optional)</p>
+          </div>
+          <div class="demo">
+            <textarea class="virtual-keyboard-demo" data-kioskboard-type="all" placeholder="Try me. (Without special character keys)" rows="4"></textarea>
+          </div>
+        </div>
+
+        <div class="types type-keyboard">
+          <div class="info">
+            <img width="150" height="150" class="image" src="images/Keyboard-Types-Icons-Keyboard.svg" alt="KioskBoard - Keyboard" />
+            <h4 class="title">Word Only</h4>
+            <p><i class="fas fa-circle"></i>Custom Keys (From JSON or an Object)</p>
+            <p><i class="fas fa-circle"></i>Special Character Keys (Optional)</p>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" data-kioskboard-type="keyboard" data-kioskboard-specialcharacters="true" type="text" placeholder="Try me. (With special character keys)" />
+          </div>
+        </div>
+
+        <div class="types type-numpad">
+          <div class="info">
+            <img width="150" height="150" class="image" src="images/Keyboard-Types-Icons-Numpad.svg" alt="KioskBoard - Numpad" />
+            <h4 class="title">Numpad</h4>
+            <p><i class="fas fa-circle"></i>Number Keys (Static)</p>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" data-kioskboard-type="numpad" type="number" placeholder="Try me." readonly="false" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="KeyboardThemes" class="sections">
+    <div class="max-width">
+
+      <div class="head">
+        <h2 class="sec-title">Features Theme Keyboard</h2>
+        <p class="sec-desc">5 Type: <span class="option">light</span>, <span class="option">dark</span>, <span class="option">flat</span>, <span class="option">material</span>, and <span class="option">oldschool</span>.</p>
+      </div>
+
+      <div class="section-content keyboard-themes">
+        <div class="themes theme-light">
+          <div class="info">
+            <span class="key-preview">M</span>
+            <h4 class="title">Light</h4>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" onfocus="KioskBoard.Merge({theme:'light'});" data-kioskboard-type="all" data-kioskboard-specialcharacters="true" type="text" placeholder="Try Light theme." />
+          </div>
+        </div>
+        <div class="themes theme-dark">
+          <div class="info">
+            <span class="key-preview">K</span>
+            <h4 class="title">Dark</h4>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" onfocus="KioskBoard.Merge({theme:'dark'});" data-kioskboard-type="all" data-kioskboard-specialcharacters="true" type="text" placeholder="Try Dark theme." />
+          </div>
+        </div>
+        <div class="themes theme-flat">
+          <div class="info">
+            <span class="key-preview">A</span>
+            <h4 class="title">Flat</h4>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" onfocus="KioskBoard.Merge({theme:'flat'});" data-kioskboard-type="all" data-kioskboard-specialcharacters="true" type="text" placeholder="Try Flat theme." />
+          </div>
+        </div>
+        <div class="themes theme-material">
+          <div class="info">
+            <span class="key-preview">8</span>
+            <h4 class="title">Material</h4>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" onfocus="KioskBoard.Merge({theme:'material'});" data-kioskboard-type="all" data-kioskboard-specialcharacters="true" type="text" placeholder="Try Material theme." />
+          </div>
+        </div>
+        <div class="themes theme-oldschool">
+          <div class="info">
+            <span class="key-preview">1</span>
+            <h4 class="title">Oldschool</h4>
+          </div>
+          <div class="demo">
+            <input class="virtual-keyboard-demo" onfocus="KioskBoard.Merge({theme:'oldschool'});" data-kioskboard-type="all" data-kioskboard-specialcharacters="true" type="text" placeholder="Try Oldschool theme." />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="KeyboardAdd" class="sections">
+    <div class="max-width">
+
+      <div class="head">
+       <img src="./images/logo.png" width="150" height="150"/>
+      </div>
+
+  </section>
+
+  <footer id="Footer">
+    <p class="copyright">© 2020 KioskBoard - MG System Designers. All rights reserved.</p>
+    <a class="logo_brand" target="_blank" rel="noopener" href="https://www.facebook.com/alexandereric.on.fb"><img src="./images/logo.png" width="30" height="30"/></a>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/833245c2e4.js"></script>
+  <script src="index-tooltip.js"></script>
+
+  <!-- <script src="../src/all-in-one/kioskboard-aio.js"></script> -->
+  <!-- <script src="../src/kioskboard.js"></script> -->
+  <!-- <script src="../dist/kioskboard-aio-1.3.3.min.js"></script> -->
+  <!-- <script src="../dist/kioskboard-1.3.3.min.js"></script> -->
+
+  <script src="kioskboard-aio-1.3.3.min.js"></script>
+  <script src="index.js?v=1.3.3"></script>
+</body>
+
+</html>
