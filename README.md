@@ -40,12 +40,10 @@
 
 	Sincerely
    	ALEXANDER ANAK ERIC@ERIC LAPIN
-   	TRAINEE, GLOW ACADEMY@GOVERMENT MALAYSIA
+   	
 
  License by [Alexander Anak Eric@Eric Lapin](https://www.facebook.com/alexandereric.on.fb/)
     
-     
-   
- Click here to [DEMO](https://my-mg.github.io/mgkeyboard/)
+
    
    	
